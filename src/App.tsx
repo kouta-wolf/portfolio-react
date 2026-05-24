@@ -1,8 +1,17 @@
-export default function App () {
+import { Header, Footer } from "./components/layout";
+import { Hero, About, Portfolio, Social } from "./components/sections";
+
+export default function App() {
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col items-center">
-      <h1 className="text-2xl font-bold mb-4">Hello, World!</h1>
-      <p className="text-gray-700 mb-6">このサイトはポートフォリオサイトの予定です</p>
+    <div className="flex flex-col min-h-screen">
+      <Header />
+      <div className="grow pt-16 pb-16">
+        <Hero />
+        <About />
+        <Portfolio />
+        <Social />
+      </div>
+      <Footer />
     </div>
   );
 }
