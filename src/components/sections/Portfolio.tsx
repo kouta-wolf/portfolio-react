@@ -6,7 +6,7 @@ export const Portfolio = () => {
   const selectedProject = projects.find((project) => project.id === selectedId);
 
   return (
-    <section className="bg-blue-50 min-h-[50vh] flex flex-col items-center justify-center gap-6 px-4 text-center">
+    <section id="portfolio" className="bg-blue-50 min-h-[50vh] flex flex-col items-center justify-center gap-6 px-4 text-center">
       <h1 className="text-3xl font-bold text-center">Portfolio セクション</h1>
       <div className="grid grid-cols-[200px_1fr] w-full max-w-4xl items-start gap-8">
         <div className="flex flex-col">

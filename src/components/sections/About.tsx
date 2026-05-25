@@ -5,7 +5,7 @@ export const About = () => {
         <h1 className="text-3xl font-bold text-center">About</h1>
         <p>プログラミングに注力してそろそろ半年の開発者です。<br></br>現在はWebページに関わる様々な言語を<br></br>全体的に学んでいる最中です。</p>
       </div>
-      画像テスト
+      <img src="projects/icon.png" alt="アイコン画像" className="w-64 h-64 rounded-full object-cover" />
     </section>
   );
 };

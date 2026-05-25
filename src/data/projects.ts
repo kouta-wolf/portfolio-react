@@ -6,7 +6,7 @@ export const projects = [
     tags: ["React", "TailwindCSS"],
     link: "URLを貼る",
     github: "https://github.com/kouta-wolf/portfolio-react",
-    image: "/assets/sample.png"
+    image: "/projects/sample.png"
   },
 
   {
@@ -16,7 +16,7 @@ export const projects = [
     tags: ["Ruby"],
     link: "URLを貼る",
     github: "https://github.com/kouta-wolf/obsidian_article_clipper",
-    image: "/assets/sample.png"
+    image: "/projects/sample.png"
   },
 
   {
@@ -26,6 +26,6 @@ export const projects = [
     tags: ["Electron, React, TailWindCSS, Obsidian API"],
     link: "URLを貼る",
     github: "https://github.com/kouta-wolf/obsidian_taskCalendar",
-    image: "/assets/sample.png"
+    image: "/projects/sample.png"
   },
 ];
