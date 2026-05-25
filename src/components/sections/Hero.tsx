@@ -1,3 +1,6 @@
+import { CommonButton } from "../ui/CommonButton";
+import { FaGithub } from "react-icons/fa";
+
 export const Hero = () => {
   return (
     <section
@@ -10,7 +13,12 @@ export const Hero = () => {
       <p className="text-lg">
         Reactがだんだん楽しくなってきた初心者プログラマのオオカミコウタです!!
       </p>
-      <a href="">ボタンリンク GitHub</a>
+      <CommonButton
+        href="https://github.com/kouta-wolf"
+        icon={FaGithub}
+        brand="github"
+        label="GitHub"
+      />
     </section>
   );
 };
